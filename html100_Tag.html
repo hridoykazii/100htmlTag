@@ -1,0 +1,230 @@
+<!--This is comment Tag-->
+<!DOCTYPE html> <!--all html document must start with DOCTYPE html, it's an information to the browser type of document-->
+<html>
+    <head>
+        <title>this is the comment of document!</title> <!--tab bar show korba ex: index.html/about/contact...-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS,JavaScripts">
+    </head>
+    <body>
+        <a href="https://www.w3schools.com/tags/tag_a.asp">anchore tag have many type of attribute, click and learn more details from w3schools</a><br><br> 
+        <!--Abbriviation of content tag is below-->
+        learn program from<abbr title="Programming Dictenory">W3Scholls.com</abbr>   
+        <!--Adrress tag defines the author/owner information in document-->
+        <address>
+            This book is written by Kazi<br> <!--br mean = line break -->
+            visit Fb<a href="https://www.facebook.com/hridoykazi1"></a><br>
+            visit twiter<a href="https://www.twitter.com/hridoykazi">Twiter</a><br>
+            Address: H.26, R.11, Sec. 11, Uttara, Dhaka-1230
+        </address> <br> <hr>
+        <!--Area Tag inside in Map tag-->
+        <img src="planet.gif" width="640" height="440" alt="planet" usemap="#planetmap">
+        <map name="planetmap"> 
+            <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun"> <!--coords mean coordinates (specific the coordinates of area-->
+            <area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
+            <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
+        </map> <hr>
+        <!--The <article> taf specifies independent, self-contained content, use for Forum Post, Blog Post, News Story, Comment-->
+        
+        <article>
+            <h2>Google Chorme</h2>
+            <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+        </article>
+        <article>
+            <h2>FireFox</h2>
+            <p>FireFox is a web browser developed by Mozila, released in 2008. Chrome is the world's most popular web browser today!</p>
+        </article> <br> <hr>
+        
+        <aside>
+            <h4>Epcot Center</h4>
+            <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        </aside> <hr>
+        <audio cotrolos>
+            <source src="Al-Fatiha.mp3" type="audio/mpeg">
+        </audio> <br> <hr>
+
+        <p>This is normal text and <b>this is bold text</b></p>
+        <!--bdi Tag stands for Bi-Directional Isolation--> 
+        <ul>
+            <li>User <bdi>>hrefs</bdi>: 60 points</li>
+            <li>User <bdi>jdoe</bdi>:80 points </li>
+        </ul> <hr>
+        <!--BDO Tag stands for Bi-Directional Override-->
+        <bdo dir="rtl"> <!--right to left-->
+            This Tex will go right-to-left (rtl direction)
+        </bdo> <br>
+        <bdo dir="ltr"> <!--left to right-->
+            This text will go left-to-right (ltr direction )
+        </bdo> <hr>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+        </blockquote> <br>
+        <!--button Tag-->
+        <button type="button">Click Me!</button><br> <hr>
+
+    <!--Caption Tag defines Table Caption-->
+        <table>
+            <caption>Monthly Saving</caption> 
+            <tr>
+                <th>Month</th>
+                <th>Saving</th>
+            </tr>
+            <tr>
+                <td>Januaryy</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$250</td>
+            </tr>
+        </table> <hr>
+        <p><cite>The Scream</cite> by Hridoy Kazi. sicne 1998 (using there cite tag, this tag use for book,movie, song, city name etc, never use person name ) </p> <hr>
+        <!--Code Tag is pharse tag (), it defines piece of computer code-->
+        <code>A piece of computer code > using there CODE tag</code> <hr>
+
+        <!--Columm Tag-->
+        <table>
+            <colgroup>
+                <col span="2" style="background-color: red;"> <!--span is Attribute & Value is number-->
+                <col style="background-color: green;">
+            </colgroup>
+            <tr>
+                <th>ISBN</th>
+                <th>Title</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>3476896</td>
+                <td>My First HTML</td>
+                <td>$53</td>
+            </tr>
+        </table> <hr>
+        <!--DATA Tag links the give content with a machine-redable translation-->
+        <ul>
+            <li><data value="21053">Cherry Tomato (Data value insert)</data></li>
+            <li><data value="2044">Beef Tomatoo</data></li>
+            <li><data value="89798">Snack Tomato</data></li>
+        </ul> <br> <hr>
+        <!--DATA LIST TAG-->
+        <input list="browsers">
+
+       <datalist id="browsers">
+           <option value="chorme">
+           <option value="internet explore">
+           <option value="Mozila Firefox">
+            <option value="safari">           
+       </datalist> <hr>
+ <!--dd tag is used to desxribe a term/name in a description list, this tag used conjunction <dl> and <dt>, this <dd> tag can put paragraphes, line breaks, images, links, lists-->
+       <dl>
+           <dt>Coffee</dt>
+           <dd>Black hot drink</dd>
+           <dd>Milk</dd>
+           <dd>White cold drinks</dd>
+       </dl> <hr>
+<!--delete tag-->
+       <p>My favorite color is <del>blue</del> <ins>red</ins></p> <hr>
+<!--DETAILS Tag-->       
+        <details>
+            <summary>The Solution Covid19-</summary>
+            <p>-World War</p>
+            <p>-lockdown</p>
+            <p>-Business China</p>
+        </details><hr>
+        <!--Difine <dfn> Tag represents the difining instance of a tearm in HTML-->
+            <p><dfn>HTML</dfn> is the standard markup language for creating web pages</p>
+            <p><dfn title="Hyper Text Multiple Language">HTMl</dfn> is the standard markup language for creating web pages</p> <hr>
+<!--dialog Tag-->
+            <table>
+                <tr>
+                    <th>January <dialog open>This the open dialog window</dialog></th>
+                    <th>February</th>
+                    <th>March</th>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>28</td>
+                    <td>31</td>
+                </tr>
+            </table> <br> <hr>
+<!--Division <div> Tag -->
+        <div style="background-color: red;">
+            <h3>This is heading</h3>
+            <p>This is paragraphes</p>
+        </div> <hr>
+<!--Description list <dl> tag-->        
+        <dl>
+            <dt>Coffee</dt>
+            <dd>Black hot drinks</dd>
+            <dd>Milk</dd>
+            <dd>white cold Drinks</dd>
+        </dl> <hr>
+<!--Emphasized Text <em> Tag-->
+        <em>Emphasized Text{italic font}</em> <hr>
+<!--Embedded image-->
+        <embed src="470315.jpg" width="300" height="200"> 
+        <embed src="https://www.youtube.com/watch?v=K9aB75bpDKc" width="450" height="350"> <hr>
+ <!--figcaption Tag-->  
+         <figure>
+             <img src="470315.jpg" alt="la ilaha il-lalah" style="width:50%">
+             <figcaption>Fig.1 - Madina, Macca{FIG CAPTION}</figcaption>
+         </figure> <hr>
+<!--Footer Tag--> 
+        <footer>
+            <p>Posted by: Kazi</p>
+            <p>Contact Information <a href="mailto:hridoykazi007@gmail.com">hriodykazi007@gmail.com</a></p>
+        </footer> <hr>    
+<!--Form Tag--> 
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <lable for="lname">Last Name:</lable>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="submit">
+        </form>
+<!--header Tag-->
+        <article>
+            <header>
+                <h1>Most importanat heading here</h1>
+                <h2>less important heading here</h2>
+                <p>Some additional information here...</p>
+            </header>
+            <p>lasfasdfasdfasdfasdf....</p>
+        </article> <hr>
+<!--I Frame Tag--> 
+        <iframe src="https://www.w3schools.com"></iframe> <hr>
+<!--kbd Tag--> 
+        <kbd>Keyboard input {use there  <i>kbd</i>  - tab}</kbd> <hr>
+<!--Order list & Unorder list--> 
+        <ol> <!--1,2,3././.-->
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol> <br>
+        <ul> <!--.....-->
+            <li>Joint</li>
+            <li>Basi</li>
+            <li>bong</li>
+        </ul> <hr>
+<!--main Tag-->
+        <main>
+            <h2>Web Browsers</h2>
+            <p>Chorme, Brave, FireFox, Safari</p>
+            <article>
+                <h3><span style="color:red">Google Chorme</span></h3>
+                <p>Chrome is a free, open-source web browser developed by Google, released in 2008.</p>
+            </article>
+            <article>
+                <h3><span style="color:red">FireFox</span></h3>
+                <p>Mozilla <span style="color:rgb(255, 15, 15)">Firefox</span>, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, Mozilla Corporation., September 23, 2002.</p>
+            </article>
+        </main> <hr>
+<!--Navigation Tag-->
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">About Me!</a>
+        </nav>
+
+    </body> 
+</html>
